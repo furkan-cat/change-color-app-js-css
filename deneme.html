@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        background-color: #fff;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        box-shadow: 0px 2px 12px 2px #000000;
+        z-index: 11111;
+        padding: 5px;
+      }
+
+      .nav-links {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .nav-links li {
+        list-style-type: none;
+        font-size: 20px;
+        font-family: "Hanalei Fill", cursive;
+      }
+
+      .nav-links li:hover {
+        cursor: pointer;
+        color: green;
+        transition: 0.5s;
+      }
+      .content-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+      }
+      button {
+        border: none;
+        outline: none;
+        background-color: aquamarine;
+        color: black;
+        font-size: 35px;
+        font-family: "Courier New", Courier, monospace;
+        padding: 15px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: honeydew;
+        border-radius: 35px;
+        transition: 0.5s;
+      }
+      h2 {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-size: 25px;
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-links">
+        <li>Simple</li>
+        <li>Hex</li>
+      </ul>
+    </nav>
+    <div class="content-container">
+      <button>Change The Color</button>
+      <h2>Color Code</h2>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
