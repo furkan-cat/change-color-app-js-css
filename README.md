@@ -21,4 +21,4 @@ A simple color change generator
 
 Furkan Çat - [@FurkanCat](https://twitter.com/FurkanCat) - furi544@gmail.com
 
-Project Link: [Project Link](https://github.com/InsomniumFerum/digital-clock)
+Project Link: [Project Link](https://github.com/InsomniumFerum/change-color-app-js-css)
