@@ -1,8 +1,8 @@
 # Change-color-app-js-css
 
-A simple clock component, displaying the current date and time into the local format.
+A simple color change generator
 
-<img src="images/project.png" width="1000">
+<img src="images/project.png" width="800">
 
 #### JavaScript Used
 
