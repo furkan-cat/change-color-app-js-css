@@ -2,7 +2,7 @@
 
 A simple color change generator
 
-<img src="images/project.png" width="800">
+<img src="images/project.png" width="500">
 
 #### JavaScript Used
 
